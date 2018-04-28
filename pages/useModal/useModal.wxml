@@ -1,0 +1,4 @@
+
+<view>
+  <mode-include-image desc="{{desc}}" isHidden="{{isHidden}}" title="" src="{{src}}" bindtabCom="buttonHandle"></mode-include-image>
+</view>

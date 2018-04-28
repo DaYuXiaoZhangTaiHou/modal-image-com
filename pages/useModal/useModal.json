@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mode-include-image": "../../utils/modeIncludeImage/modeIncludeImage"
+  }
+}

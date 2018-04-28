@@ -1,0 +1,17 @@
+<view class='wrapper'>
+  <view>我在模拟可以有照片的微信mode组件</view>
+  <view class='modal-include-image' catchtouchmove='move' hidden='{{isHidden}}'>
+    <view class='modal-mask'></view>
+    <view class='modal-content'>
+      <view class='modal-header'>{{title}}</view>
+      <view class='modal-body'>
+        <image src='{{src}}' mode='aspectFit'></image>
+        <view>{{desc}}</view>
+      </view>
+      <view class='modal-footer'>
+        <view class='modal-btn modal-cancel' data-name='cancel' bindtap='cancelHandle'>{{cancel}}</view>
+        <view class='modal-btn modal-ok' data-name='ok' bindtap='okHandle'>{{ok}}</view>
+      </view>
+    </view>
+  </view>
+</view>

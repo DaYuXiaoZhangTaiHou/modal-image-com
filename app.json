@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/useModal/useModal"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "我是带图片的模态框",
+    "navigationBarTextStyle": "white",
+    "backgroundColor":"#FFFFFF"
+  }
+}
